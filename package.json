@@ -1,0 +1,13 @@
+{
+  "name": "cloudflare-accel",
+  "version": "1.0.0",
+  "description": "基于 Cloudflare Workers 的 GitHub、GitLab 和 Docker 加速服务",
+  "main": "_worker.js",
+  "scripts": {
+    "deploy": "npx wrangler deploy",
+    "dev": "npx wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
